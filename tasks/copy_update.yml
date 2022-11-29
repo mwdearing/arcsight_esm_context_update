@@ -1,0 +1,7 @@
+---
+- name: Transfer and unzip context update
+  unarchive:
+    src: "files/{{ zip_file }}"
+    dest: "{{ context_path }}"
+    owner: "{{ user }}"
+    group: "{{ user }}"

@@ -1,0 +1,7 @@
+---
+- hosts: esm2
+  become: yes
+  vars:
+    - zip_file: "ArcSight_Context_Update_November_2022.1109_033024.zip"
+  roles: 
+  - role: /etc/ansible/roles/esm_context_update

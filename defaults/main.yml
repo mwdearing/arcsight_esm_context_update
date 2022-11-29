@@ -1,0 +1,6 @@
+---
+# defaults file for esm_context_update
+
+zip_file: "ArcSight_Context_Update_November_2022.1109_033024.zip"
+user: "arcsight"
+context_path: "/opt/arcsight/manager/config/server"
